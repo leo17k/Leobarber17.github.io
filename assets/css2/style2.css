@@ -1,0 +1,32 @@
+.image-with-overlay1 {
+    width: 50%; /* Para que ocupen la mitad de la pantalla cada una */
+    float: left; /* Alinear la primera imagen a la izquierda */
+    position: relative;
+    margin: 20px;
+}
+
+.image-with-overlay2:nth-child(2) {
+    float: right; /* Alinear la segunda imagen a la derecha */
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+}
+
+.text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 16px;
+}

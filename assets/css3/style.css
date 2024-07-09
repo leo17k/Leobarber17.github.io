@@ -1,0 +1,22 @@
+body{
+
+    background-color: black;
+}
+
+.image-with-overlay1{
+
+    justify-content: end;
+}
+h1{
+    color: white;
+}
+
+div{
+    background-color: grey;
+}
+.img{
+
+height: 130px;
+position: static;
+justify-content: center;
+}
